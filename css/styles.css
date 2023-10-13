@@ -23,21 +23,22 @@ a {
     text-decoration: none;
 }
 
-.page-logo {
+.a-studio {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
+    font-style: normal;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.03px;
+    letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
-.page-logo-second {
+.a-span {
     color: #2E2F42;
 }
 
-.page-address {
+.body-address {
     font-style: normal;
 }
 
@@ -56,17 +57,18 @@ a {
     color: #404bbf;
 }
 
-.address-item {
+.a-address {
     color: #434455;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
-.address-item:hover,
-.address-item:focus {
+.a-address:hover,
+.a-address:focus {
     color: #404bbf;
 }
 
@@ -176,5 +178,5 @@ a {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.03em;
 }
