@@ -30,7 +30,7 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -164,7 +164,7 @@ a {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.03px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
 }
@@ -178,5 +178,5 @@ a {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
 }
