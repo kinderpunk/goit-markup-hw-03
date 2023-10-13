@@ -29,7 +29,7 @@ a {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03px;
     text-transform: uppercase;
 }
 
@@ -161,7 +161,7 @@ a {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03px;
     text-transform: uppercase;
     color: #4d5ae5;
 }
@@ -171,10 +171,9 @@ a {
 }
 
 .footer-p {
+    color: #F4F4FD;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--footer-text-color);
-    /* Використовуємо CSS змінну */
+    letter-spacing: 0.32px;
 }
