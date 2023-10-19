@@ -52,12 +52,12 @@ width: 1158px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
- 
+    margin-right: 76px;
 }
 
 .a-span {
     color: #2E2F42;
-    margin-right: 76px;
+
 }
 
 .body-address {
@@ -146,6 +146,10 @@ display: flex;
     background-color: #404BBF;
 }
 
+.second-section{
+    padding: 120px 0;
+}
+
 .section-h-two {
     color: #2E2F42;
     text-align: center;
@@ -155,8 +159,24 @@ display: flex;
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
+.adventages-list{
+    display: flex;
+    gap: 24px;
+
+}
 .ul-h-three {
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
@@ -164,8 +184,11 @@ display: flex;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
-
+.adventages-item{
+    width: calc((100% - 72px) / 4);
+}
 .ul-p {
     color: #434455;
     font-family: 'Roboto', sans-serif;
