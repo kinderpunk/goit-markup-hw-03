@@ -52,6 +52,7 @@ width: 1158px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+ 
 }
 
 .a-span {
@@ -110,6 +111,7 @@ display: flex;
 .first-section {
     background: #2E2F42;
     text-align: center;
+    padding: 188px 0;
 }
 
 .section-h-hero {
@@ -119,6 +121,7 @@ display: flex;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
+    max-width: 496px;
 }
 
 .section-button {
@@ -130,6 +133,12 @@ display: flex;
     letter-spacing: 0.64px;
     background: #4D5AE5;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
 }
 
 .section-button:hover,
