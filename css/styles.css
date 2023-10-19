@@ -56,12 +56,16 @@ width: 1158px;
 
 .a-span {
     color: #2E2F42;
-    margin-right: 76px
+    margin-right: 76px;
 }
 
 .body-address {
     font-style: normal;
-    display: flex;
+ 
+}
+
+.adress-list{
+display: flex;
     gap: 40px;
 }
 
