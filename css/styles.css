@@ -25,7 +25,6 @@ a {
 
 .header-setup{
     border-bottom: 1px solid #e7e9fc;
-    display: flex;
 }
 
 .nav-setup{
@@ -34,7 +33,7 @@ a {
 }
 
 .header-container{
-    
+        display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -172,7 +171,7 @@ a {
     letter-spacing: 0.4px;
 }
 
-.image{
+.image-setup{
     display: block;
 }
 
