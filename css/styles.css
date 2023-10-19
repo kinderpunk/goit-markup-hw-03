@@ -146,7 +146,7 @@ display: flex;
     background-color: #404BBF;
 }
 
-.second-section{
+.second-section {
     padding: 120px 0;
 }
 
@@ -159,8 +159,8 @@ display: flex;
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    
 }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -174,11 +174,11 @@ display: flex;
     overflow: hidden;
 }
 
-.adventages-list{
+.adventages-list {
     display: flex;
     gap: 24px;
-
 }
+
 .ul-h-three {
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
@@ -188,8 +188,9 @@ display: flex;
     letter-spacing: 0.4px;
     margin-bottom: 8px;
 }
-.adventages-item{
-    flex-basis: calc((100% - 3 * 24px) / 4)
+
+.adventages-item {
+    flex-basis: calc((100% - 72px) / 4);
 }
 .ul-p {
     color: #434455;
