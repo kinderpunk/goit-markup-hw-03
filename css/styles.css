@@ -207,6 +207,7 @@ display: flex;
 
 .section-h-three{
     margin-bottom: 72px;
+    text-align: center;
 }
 
 .our-team-list{
@@ -256,6 +257,7 @@ display: flex;
 
 .fourth-section-h-two{
     margin-bottom: 72px;
+    text-align: center;
 }
 
 .skills-list{
@@ -277,10 +279,12 @@ border-top: none;
 
 .h-tree-skills{
 margin-bottom: 8px;
+text-align: center;
 }
 
 .head-footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .a-studio {
@@ -291,6 +295,8 @@ margin-bottom: 8px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .a-span-footer {
@@ -303,4 +309,5 @@ margin-bottom: 8px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px
 }
