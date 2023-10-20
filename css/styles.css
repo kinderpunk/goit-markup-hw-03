@@ -190,7 +190,7 @@ display: flex;
 }
 
 .adventages-item {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px)/ 4);
 }
 .ul-p {
     color: #434455;
@@ -202,8 +202,17 @@ display: flex;
 
 .third-section {
     background: #F4F4FD;
+    padding: 120px 0
 }
 
+.section-h-three{
+    margin-bottom: 72px;
+}
+
+.our-team-list{
+    display: flex;
+    gap: 24px;
+}
 .h-tree-li {
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
@@ -211,6 +220,8 @@ display: flex;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .image-setup{
@@ -219,6 +230,9 @@ display: flex;
 
 .item-list {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+
 }
 
 .list-description {
@@ -227,6 +241,11 @@ display: flex;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    text-align: center;
+}
+
+.decription-container{
+    padding: 32px 0;
 }
 
 .head-footer {
