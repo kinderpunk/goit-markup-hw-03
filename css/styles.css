@@ -12,15 +12,21 @@ h4,
 h5,
 h6 {
     font-family: 'Roboto', sans-serif;
+    padding: 0;
 }
 
 ul,
 ol {
     list-style-type: none;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+p{
+    padding: 0;
 }
 
 .header-setup{
@@ -34,6 +40,7 @@ a {
 
 .header-container{
         display: flex;
+            justify-content: space-between;
    
 }
 
@@ -44,6 +51,8 @@ width: 1158px;
 }
 
 .a-studio {
+    display: flex;
+    align-items: center;
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -67,7 +76,7 @@ width: 1158px;
 
 .adress-list{
 display: flex;
-    gap: 40px;
+    column-gap: 40px;
 }
 
 .nav-list{
@@ -122,6 +131,7 @@ display: flex;
     line-height: 1.07;
     letter-spacing: 1.12px;
     max-width: 496px;
+       
 }
 
 .section-button {
@@ -224,6 +234,7 @@ display: flex;
     letter-spacing: 0.4px;
     text-align: center;
     margin-bottom: 8px;
+    padding-bottom: 3px;;
 }
 
 .image-setup{
